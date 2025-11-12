@@ -132,7 +132,7 @@ bash scripts/pre-release-check.sh
 3. **Static analysis**: `go vet ./...` must pass
 4. **Build**: `go build ./...` must succeed
 5. **go.mod**: `go mod verify` and `go mod tidy` check
-6. **Tests**: All tests passing (51 tests for v0.1.0-beta)
+6. **Tests**: All tests passing (51 tests as of v0.1.0)
 7. **Coverage**: >70% required
 8. **Race detector**: Clean (if GCC available)
 9. **golangci-lint**: 0 issues required
@@ -172,9 +172,9 @@ bash scripts/pre-release-check.sh
 Format: `MAJOR.MINOR.PATCH[-PRERELEASE]`
 
 Examples:
-- `v0.1.0-beta` - Current version (core complete)
-- `v0.1.0` - Stable core (bug fixes only)
-- `v0.2.0` - Documentation + Examples
+- `v0.1.0-beta` - Beta release (core complete)
+- `v0.1.0` - Current version (stable core)
+- `v0.2.0` - Next version (documentation + examples)
 - `v0.3.0` - Advanced features
 - `v1.0.0-rc.1` - Release candidate 1
 - `v1.0.0` - First stable release
@@ -210,9 +210,9 @@ Examples:
 
 **Current Path**: `v0.x.x` until `v1.0.0`
 
-- `v0.1.0-beta`: Core complete (current)
-- `v0.1.0`: Stable core (bug fixes)
-- `v0.2.0`: Documentation + Examples
+- `v0.1.0-beta`: Core complete (released)
+- `v0.1.0`: Stable core (current)
+- `v0.2.0`: Documentation + Examples (next)
 - `v0.3.0`: Advanced features (batching, resource tracking)
 - `v1.0.0-rc.1`: Release candidate (API stable)
 - `v1.0.0`: First stable release
@@ -785,4 +785,4 @@ Copy this for each release:
 ---
 
 *Last Updated: 2025-10-31*
-*Signals Library v0.1.0-beta Release Process*
+*Signals Library Release Process*

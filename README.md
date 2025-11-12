@@ -121,9 +121,9 @@ effect.Cleanup()  // Manual cleanup when done
 
 ## Current Status
 
-**Version**: v0.1.0-beta (Core features complete - production-ready for early adopters)
+**Version**: v0.1.0 (Stable - Production-ready!)
 
-**Production Readiness: Core functionality complete! Documentation and guides coming soon!**
+**Production Readiness: ✅ Core functionality complete and stable!**
 
 📋 **[See detailed roadmap →](ROADMAP.md)**
 
@@ -335,8 +335,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Status**: Beta - Core complete, production-ready for early adopters
-**Version**: v0.1.0-beta
+**Status**: Stable - Production-ready!
+**Version**: v0.1.0
 **Last Updated**: 2025-10-31
 
 ---

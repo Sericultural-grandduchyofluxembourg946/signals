@@ -2,11 +2,11 @@
 
 ## Supported Versions
 
-Signals library is currently in beta. We provide security updates for the following versions:
+Signals library is stable and production-ready. We provide security updates for the following versions:
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 0.1.0-beta | :white_check_mark: |
+| 0.1.x | :white_check_mark: |
 | < 0.1.0 | :x:                |
 
 Future stable releases (v1.0+) will follow semantic versioning with long-term support.
@@ -358,7 +358,7 @@ func shareWithUntrusted(r signals.Readable[int]) {
 
 ## Security Disclosure History
 
-No security vulnerabilities have been reported or fixed yet (project is in beta).
+No security vulnerabilities have been reported or fixed yet.
 
 When vulnerabilities are addressed, they will be listed here with:
 - **CVE ID** (if assigned)

